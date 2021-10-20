@@ -1,3 +1,4 @@
+/*Configurações iniciais*/
 body {
     margin: 0;
     background-color: rgb(200, 255, 239);
@@ -11,6 +12,8 @@ body {
     align-items: center;
 }
 
+
+/*Estrutura do jogo*/
 .genius {
     display: grid;
     grid-template-areas: 'verde vermelho'
@@ -24,6 +27,8 @@ body {
 
 }
 
+
+/*Botões*/
 .blue {
     grid-area: azul; /*Especifica a localização de um item dentro do grid, nesse caso o botão azul*/
     background-color: blue;
@@ -47,4 +52,8 @@ body {
     grid-area: verde;
     background-color: green;
     border-top-left-radius: 100%;
+}
+
+.selected {
+    opacity: 0.8; /*Para o efeito de opacidade ao pressionar um botão*/
 }
