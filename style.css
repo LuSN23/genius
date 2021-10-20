@@ -13,13 +13,38 @@ body {
 
 .genius {
     display: grid;
-    grid-template-areas: 'green red'
-    'yellow blue';
-    grid-gap: 10px;
+    grid-template-areas: 'verde vermelho'
+    'amarelo azul'; /*Estabelece áreas no grid e dá nome a elas*/
+    grid-gap: 10px; /*Espaço entre as areas do grid*/
     border: 1px solid #ffffff;
     background-color: #ffffff;
     border-radius: 100%;
     width: 700px;
     height: 700px;
 
+}
+
+.blue {
+    grid-area: azul; /*Especifica a localização de um item dentro do grid, nesse caso o botão azul*/
+    background-color: blue;
+    border-bottom-right-radius: 100%; /*Deixa a borda de baixo direita totalmente redonda*/
+
+}
+
+.red {
+    grid-area: vermelho;
+    background-color: red;
+    border-top-right-radius: 100%;
+}
+
+.yellow {
+    grid-area: amarelo;
+    background-color: yellow;
+    border-bottom-left-radius: 100%;
+}
+
+.green {
+    grid-area: verde;
+    background-color: green;
+    border-top-left-radius: 100%;
 }
