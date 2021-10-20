@@ -1,0 +1,1 @@
+Jogo Genius, versão brasileira do jogo americano Simon, projeto desenvolvido durante o bootcamp da Eduzz na plataforma Digital Innovation One. Html5, CSS3 e JavaScript.
